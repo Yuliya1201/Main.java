@@ -54,7 +54,7 @@ public class Main {
         return calculateTotalSalary() / (float) employees.length;
     }
 
-    public static void ppintFullName() {
+    public static void pintFullName() {
         for (Employee employee : employees) {
         }
     }
