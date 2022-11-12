@@ -18,7 +18,7 @@ public class Main {
                 new Employee("Кузин Евгений Олегович", 150_000, 2)
         };
         employees[0] = new Employee("Гаримов Андрей Юрьевич", 12000, 1);
-        ppintFullName();
+        pintFullName();
         printEmployees();
         System.out.println("avg =" + calculateAverageSalary());
         System.out.println("  high  ");
