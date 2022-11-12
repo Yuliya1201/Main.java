@@ -18,7 +18,7 @@ public class Employee {
 
     public int getId() {return}
 
-    public String getName {return this.name;}
+    public String getName () {return this.name;}
 
     public int getSalary() {return this.salary;}
 
