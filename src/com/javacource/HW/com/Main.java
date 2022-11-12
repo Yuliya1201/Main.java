@@ -18,7 +18,7 @@ public class Main {
                 new Employee("Кузин Евгений Олегович", 150_000, 2)
         };
         employees[0] = new Employee("Гаримов Андрей Юрьевич", 12000, 1);
-        pintFullName();
+        printFullName();
         printEmployees();
         System.out.println("avg =" + calculateAverageSalary());
         System.out.println("  high  ");
@@ -54,7 +54,7 @@ public class Main {
         return calculateTotalSalary() / (float) employees.length;
     }
 
-    public static void pintFullName() {
+    public static void printFullName() {
         for (Employee employee : employees) {
         }
     }
